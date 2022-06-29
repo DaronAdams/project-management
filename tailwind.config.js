@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,ts,jsx,tsx}",
   ],
   presets: [],
   darkMode: 'media', // or 'class'
@@ -952,5 +952,5 @@ module.exports = {
     'active',
     'disabled',
   ],
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"),require("daisyui")],
 }
