@@ -1,4 +1,4 @@
-import { qgl } from 'apollo-server-micro';
+import { gql } from 'apollo-server-micro';
 import * as types from './types'
 
 import { makeSchema } from 'nexus';
